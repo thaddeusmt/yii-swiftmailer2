@@ -1,10 +1,10 @@
 # yii-swiftmailer2
 
-Basic Yii extension that wraps the [SwiftMailer](http://swiftmailer.org/) PHP library in some useful functions, and makes it easy to configure and access as a Component via Yii's app configuration system.
+Basic [Yii Framework](http://www.yiiframework.com/) extension that wraps the [SwiftMailer](http://swiftmailer.org/) PHP library in some useful functions, and makes it easy to configure and access as a Component via Yii's app configuration system.
 
 ## Why another SwiftMailer extension for Yii?
 
-It's true, there are three other SwiftMailer extensions in the [Extensions](http://www.yiiframework.com/extensions/?category=9) repository right now. I had been using the classic [mail](http://www.yiiframework.com/extension/mail/) one myself, for quite a while. Here is why I made another one, and what it does differently:
+It's true, there are three other SwiftMailer extensions in the [Yii Extensions](http://www.yiiframework.com/extensions/?category=9) repository right now. I had been using the classic [mail](http://www.yiiframework.com/extension/mail/) one myself, for quite a while. Here is why I made another one, and what it does differently:
 
  1. Provides an easy way render emails using Views, no matter where they are (call view with full path alias for extensions, modules, etc)
  2. Turn off email sending config setting (useful for testing environments)
@@ -18,9 +18,9 @@ Drop it in to your `/extensions` directory.
  
 ### Configuration:
 
-   <?php // components config array for your application
-   'components'=>array(
-     'mail'=>array(
+    <?php // components config array for your application
+    'components'=>array(
+      'mail'=>array(
         'class' => 'ext.yii-swiftmailer2.SMail', // path to the extension
         //'log' => false, // log emails to /runtime/email -  - defaults to false
 	    //'logDirectory' => 'email', // name of directory in the /runtime folder - defaults to 'email'
@@ -36,7 +36,7 @@ Drop it in to your `/extensions` directory.
         //),
       ),
 	),
-   ?>
+    ?>
  
 ### Basic usage example:
 
@@ -71,8 +71,8 @@ Drop it in to your `/extensions` directory.
 	?>
 
 
-Version: pre-beta :)
-Author: Evan Johnson
-http://splashlabsocial.com
+Version: pre-beta :)  
+Author: Evan Johnson  
+http://splashlabsocial.com  
 
 Last updated: 1.20.2012
