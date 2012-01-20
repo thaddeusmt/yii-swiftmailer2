@@ -1,0 +1,13 @@
+Download the SwiftMailer library and unpack the files directly in this folder:
+
+http://swiftmailer.org/
+
+This folder should contain:
+
+[directory] classes (the core SwiftMailer classes)
+[directory] dependency_maps
+[file] mime_types.php
+[file] preferences.php
+[file] swift_init.php
+[file] swift_required.php
+[file] swift_required_pear.php
