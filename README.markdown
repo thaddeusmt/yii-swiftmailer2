@@ -1,6 +1,6 @@
 # yii-swiftmailer2
 
-Basic [Yii Framework](http://www.yiiframework.com/) extension that wraps the [SwiftMailer](http://swiftmailer.org/) PHP library in some useful functions, and makes it easy to configure and access as a Component via Yii's app configuration system.
+Basic [Yii Framework](http://www.yiiframework.com/) extension that extends the [SwiftMailer PHP email library](http://swiftmailer.org/) ([GitHub](https://github.com/swiftmailer/swiftmailer)) with some useful Yii functions, and makes it easy to configure and access as a Component via Yii's app configuration system.
 
 ## Why another SwiftMailer extension for Yii?
 
